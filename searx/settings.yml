@@ -1684,6 +1684,17 @@ engines:
       require_api_key: false
       results: HTML
 
+# moggie engine - see https://github.com/BjarniRunar/moggie for more details
+  - name : moggie
+    engine : moggie
+    paging : True
+    base_url : 'http://127.0.0.1:8025/YOUR_SECRET_TOKEN/'
+    disabled : False
+    enable_http : True
+    categories : general
+    shortcut : moggie
+
+
 # omnom engine - see https://github.com/asciimoo/omnom for more details
 #  - name : omnom
 #    engine : omnom
